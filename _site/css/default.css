@@ -321,6 +321,7 @@ float: left;
 
 #header .nav ul {
 margin: 0px auto;
+padding:0px;
 }
 
 #header .nav li.selected a {
