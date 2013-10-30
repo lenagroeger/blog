@@ -3,4 +3,4 @@ markdown: rdiscount
 pygments: true
 permalink: /blog/:title
 # paginate: 30
-paginate_path: "blog/page:num"
+# paginate_path: "blog/page:num"
