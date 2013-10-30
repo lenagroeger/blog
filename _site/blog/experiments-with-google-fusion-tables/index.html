@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lena Groeger</title>
+  <link rel="shortcut icon" type="image/x-icon" href="http://lenagroeger.s3.amazonaws.com/images/favicon.ico" />
+  <link href='http://fonts.googleapis.com/css?family=Cambo' rel='stylesheet' type='text/css'>
+  <link type="text/css" rel="stylesheet" media="all" href="/css/reset.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="/css/default.css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+  <script type="text/javascript" src="/js/smoothscroll.js"></script>
+</head>
+
+  <body>
+    <div id="header">
+  <div class="transparent">
+    <div class="nav">
+    <a class="back_button" href="/"><span class="backarrow"></span><span>Back</span></a>
+
+    <ul>
+      <li><a href="http://www.lenagroeger.com/">LENA GROGER</a></li>
+      <li><a href="http://www.lenagroeger.com/#about">About</a></li>
+      <li><a href="http://www.lenagroeger.com/#work">Work</a></li>
+      <li class="selected"><a href="http://www.lenagroegeretc.com">Blog</a></li>
+      <li><a href="http://www.lenagroeger.com/#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+	<div class="container">
+		<div class="content">
+	
+	<h1>Experiments with Google Fusion Tables</h1>
+
+	<div class="deets">
+		<span class="date">January 10, 2012 </span>
+		<span> Tags:  
+      <a href="/tags/Communication" title="View posts tagged with &quot;Communication&quot;"><span>Communication</span>
+      </a>    
+      <a href="/tags/Design" title="View posts tagged with &quot;Design&quot;"><span>Design</span>
+      </a>    
+      <a href="/tags/Health" title="View posts tagged with &quot;Health&quot;"><span>Health</span>
+      </a>    
+      <a href="/tags/Science" title="View posts tagged with &quot;Science&quot;"><span>Science</span>
+      </a>    
+      <a href="/tags/Code" title="View posts tagged with &quot;Code&quot;"><span>Code</span>
+      </a>    </span>
+
+
+	</div>
+
+
+
+    <p>To prep for our talk on data journalism at the <a href="http://scienceonline2012.com/agenda/" target="_blank">Science Online </a>conference coming up next week (!!), I figured it'd be good to actually review mapping some data with Google Fusion Tables. I chose a <a href="http://www.cdc.gov/mmwr/preview/mmwrhtml/ss6013a1.htm" target="_blank">dataset released this October</a> from the CDC on suicide from 2008-2009. Morbid, I know, but it's is the first time this specific state-level data has been reported, and I wanted to actually visualize the differences between states rather than stare at numbers in a table.</p>
+
+<p>The numbers originally came in a PDF that looked like this:</p></p>
+<p style="text-align: center;"><a href="img/suicidenumbers.png"><img class=" wp-image-306 aligncenter" title="suicidenumbers" src="/img/posts/suicidenumbers.png" alt="" width="648" height="682" /></a></p>
+After thinking for a little while that I'd have to do something ninja-like to get them out of the PDF, I just selected all the numbers in the "Attempts" % column, and pasted them into a Google Spreadsheet. Not bad.</p>
+
+<a href="img/googlespreadsheet.png"><img class="aligncenter size-full wp-image-307" title="googlespreadsheet" src="/img/posts/googlespreadsheet.png" alt="" width="539" height="611" /></a>
+
+<p>Then I switched over to Google Fusion Tables, and created a new table by importing that very simple Google Spreadsheet. Merging that with the <a href="http://www.google.com/fusiontables/DataSource?dsrcid=655491 " target="_blank">pubic KML file for US states</a> gave me this:</p>
+
+<a href="img/kml.png"><img class="aligncenter size-large wp-image-308" title="kml" src="/img/posts/kml-1024x648.png" alt="" width="584" height="369" /></a>
+
+<p>Next was going to Visualize &gt; Map, fiddling around with Configure Styles and adjusting the HTML in the Configure info window to show just the state name and percentage.</p>
+
+<p>Hardly beautiful (and I gotta work out much more coherent step-by-step instructions) but here it is:</p>
+
+<p><strong>Suicide Attempts by State (in % of population)</strong></p>
+
+<iframe src="https://www.google.com/fusiontables/embedviz?viz=MAP&amp;q=select+col3%3E%3E1+from+1958082+&amp;h=false&amp;lat=35.14059441049909&amp;lng=-96.64151875000006&amp;z=3&amp;t=1&amp;l=col3%3E%3E1" scrolling="no" width="600px" height="400px"></iframe>
+
+<p>Now the REAL story here, which the map indicates but does not explain, is why Rhode Island in particular has such a high percentage of suicide attempts. The CDC report offers some speculation, but no definitive answers:</p>
+<blockquote>Several theories have been advanced that attempt to explain these regional differences. These theories attribute the differences to selective migration (i.e., populations with risk factors for suicidal behavior might migrate to the same geographic areas), to the sociodemographic composition of the population (i.e., certain regions have a greater percentage of persons who are members of sociodemographic groups that are at greater risk for suicidal behavior), or to the local social environment (e.g., unemployment levels, divorce rates, social support, or environmental factors such as increased access to lethal means). Such variations might point to areas of emphasis for planning and evaluation of prevention activities.
+
+ </blockquote>
+<p>To be continued, then.</p>
+
+</div>
+
+
+	 </div>
+	<footer class="footer">
+  <div class="deets">
+  <span> <a href="/blog/which-half-on-the-importance-of-controls" title="Previous Post: Which half? (on the importance of controls)">previous post</a> 
+
+   |  <a href="/blog/hey-girl-its-data" title="Next Post: Hey girl, it's data">next post</a>   </span>
+
+  </div>
+</footer>
+
+
+
+
+  </body>
+</html>

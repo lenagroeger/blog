@@ -1,0 +1,23 @@
+---
+layout: post
+title: Pop Experiments
+categories: []
+tags:
+- Design
+- Health
+- Science
+- Code
+status: publish
+type: post
+published: true
+image: soda.jpg
+meta:
+  _edit_last: '1'
+---
+<img class="aligncenter size-full wp-image-364" title="soda" src="/img/posts/soda.jpg" alt="" width="550" height="457" />
+
+<p>I drink a lot of soda. Maybe <a href="http://jezebel.com/5903814/woman-drinks-two-gallons-of-coca+cola-a-day-dies">not as much as this woman</a> (let it be a warning!!), but still, Diet Mountain Dew is a substantial part of my daily liquid intake. So of course I was intrigued when I ran across <a href="http://www.ers.usda.gov/data/foodconsumption/FoodAvailSpreadsheets.htm#beverage">this dataset</a> on soda consumption since the 1950's (it actually inclues all beverages, but one track mind here). I decided to make an interactive chart out of this very significant information. </p>
+
+<p>I <a href="http://www.propublica.org/special/a-history-of-fda-inaction-on-animal-antibiotics">had just learned</a> how to use <a href="http://fastercsv.rubyforge.org/">FasterCSV</a> and a little Ruby to turn a .csv file into a bar graph, so I used the same approach. Basically I ended up creating a bunch of little divs, their heights calculated as percentages of the total height of the container div. Also learned about jQuery <a href="http://api.jquery.com/prepend/">.prepend</a> method, which let me attach labels &#8212; the gallons of soda per person &#8212; to each bar.<a href="http://dl.dropbox.com/u/7945837/soda.html" target="_blank"> Here it is! </a></p>
+
+<p style="text-align: center;"><a href="http://dl.dropbox.com/u/7945837/soda.html" target="_blank"><img class="aligncenter  " title="sodagraph" src="/img/posts/sodagraph.gif" alt="" width="725" height="122" /></a></p>
