@@ -273,12 +273,12 @@ box-shadow: 0 0 10px rgba(0,0,0,0.15);
 
 
 .non-stick-item:hover .backarrow {
-  background: url("/blog/img/backarrow_black.png") no-repeat ;
+  background: url("/img/backarrow_black.png") no-repeat ;
   background-size: 25px;
 }
 
 .backarrow {
-  background: url("/blog/img/backarrow.png") no-repeat ;
+  background: url("/img/backarrow.png") no-repeat ;
   background-size: 25px;
   width: 25px;
   height: 25px;
