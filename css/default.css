@@ -278,7 +278,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 
 .backarrow {
-  background: url("/img/backarrow.png") no-repeat ;
+  background: url("/blog/img/backarrow.png") no-repeat ;
   background-size: 25px;
   width: 25px;
   height: 25px;
