@@ -4,7 +4,7 @@
 	<div class="deets">
 		<span class="date">{{ page.date | date: "%B %e, %Y" }} </span>
 		<span> Tags:  {% for tag in page.tags %}
-      <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><span>{{ tag }}</span>
+      <a href="/blog/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><span>{{ tag }}</span>
       </a>  {% if forloop.last != true %} {% endif %} {% endfor %} </span>
 
 
