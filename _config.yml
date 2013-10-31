@@ -2,6 +2,5 @@ auto: true
 markdown: rdiscount
 pygments: true
 permalink: /:title
-baseurl: /
 # paginate: 30
 # paginate_path: "blog/page:num"
