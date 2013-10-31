@@ -10,13 +10,13 @@ body {
 }
 
 .container {
-  font-family: Georgia, serif;
+font-family: Georgia, serif;
 font-size: 17px;
 line-height: 1.6;
 text-align: left;
 line-height: 1.6em;
 font-weight: 200;
-  line-height: 1.6em;
+line-height: 1.6em;
 
 }
 .container img {
@@ -273,7 +273,7 @@ box-shadow: 0 0 10px rgba(0,0,0,0.15);
 
 
 .non-stick-item:hover .backarrow {
-  background: url("/img/backarrow_black.png") no-repeat ;
+  background: url("/blog/img/backarrow_black.png") no-repeat ;
   background-size: 25px;
 }
 
