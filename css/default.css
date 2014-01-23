@@ -490,9 +490,17 @@ a.twittericon:hover {
   width:480px;
   }
 
+  div.content {
+    max-width: 300px;
+  }
+
   .container {
     width: 100%
   }
+
+  div.content img {
+max-width: 900px;
+}
 
   .back_button {
     top:50px;
