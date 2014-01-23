@@ -490,6 +490,14 @@ a.twittericon:hover {
   width:480px;
   }
 
+  .container {
+    width: 100%
+  }
+
+.post > div {
+  clear: both;
+  width: 100%
+}
   #header .nav {
     min-height: 15px;
     font-size: 9px;
