@@ -493,6 +493,10 @@ a.twittericon:hover {
   .container {
     width: 100%
   }
+
+  .back_button {
+    top:50px;
+  }
   .blog_home_header {
     width: 200px
   }
