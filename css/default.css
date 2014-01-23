@@ -503,7 +503,7 @@ max-width: 900px;
 }
 
   .back_button {
-    top:50px;
+    display: none
   }
   .blog_home_header {
     width: 200px
