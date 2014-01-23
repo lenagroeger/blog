@@ -499,7 +499,8 @@ a.twittericon:hover {
   }
 
   div.content img {
-max-width: 900px;
+width: 300px;
+height: auto;
 }
 
   .back_button {
