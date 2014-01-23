@@ -493,6 +493,9 @@ a.twittericon:hover {
   .container {
     width: 100%
   }
+  .blog_home_header {
+    width: 200px
+  }
 
 .post > div {
   clear: both;
