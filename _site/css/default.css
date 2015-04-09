@@ -26,8 +26,12 @@ line-height: 1.6em;
 }
 
 .img_credit {
-  font-size: 11px;
-  text-transform:uppercase
+font-size: 11px;
+text-transform: uppercase;
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+margin-top: 40px;
+letter-spacing: .02em;
 }
 div.content img {
   max-width: 100%
@@ -206,7 +210,7 @@ h2 {
 
 h3 {
   font-family: 'Cambo', serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   margin-bottom: 10px;
   color: #444;
@@ -490,6 +494,35 @@ a.twittericon:hover {
   width:480px;
   }
 
+  div.content {
+    max-width: 300px;
+  }
+
+  .container {
+    width: 100%
+  }
+
+  div.content img {
+width: 300px;
+height: auto;
+}
+
+  .back_button {
+    display: none
+  }
+  .blog_home_header {
+    width: 200px
+  }
+
+.post > div {
+  clear: both;
+  width: 100%
+}
+  #header .nav {
+    min-height: 15px;
+    font-size: 9px;
+
+  }
   .photo_container {
   width: 100%;
 }
